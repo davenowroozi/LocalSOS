@@ -1,0 +1,31 @@
+# Created by: Dave Nowroozi
+def main():
+    """
+    Main function - starting point of our program
+    """
+    print("Welcome to our team project!")
+    print("This is the base code for our collaboration")
+    
+    # TODO: Add your team features here
+    calculate_example()
+    
+def calculate_example():
+    """
+    Example function that team members can improve
+    """
+    numbers = [1, 2, 3, 4, 5]
+    result = sum(numbers)
+    print(f"Sum of numbers {numbers} = {result}")
+    
+    # TODO: Add more calculations here
+    return result
+
+def team_function_placeholder():
+    """
+    Placeholder function for team members to implement
+    """
+    pass
+    # TODO: Team members can implement this function
+
+if __name__ == "__main__":
+    main()
